@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Menu, Sparkles, Trophy } from 'lucide-react'
+import { Menu,  Trophy } from 'lucide-react'
 import { useState } from 'react'
 import { ActionButton } from '../components/ActionButton'
 import { GlassCard } from '../components/GlassCard'
