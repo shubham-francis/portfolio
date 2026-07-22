@@ -57,7 +57,7 @@ export function PortfolioPage() {
           <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }} className="space-y-4">
 
             <div className="flex items-center gap-4">
-              <img src={`${import.meta.env.BASE_URL}profile-picture.jpeg`} alt="Shubham Francis" className="h-28 w-28 rounded-full object-cover"/>
+              <img src={`${import.meta.env.BASE_URL}profile-picture.jpeg`} alt="Shubham Francis" className="h-28 w-28 rounded-full object-contain bg-white"/>
               <div>
                 <h1 className="text-2xl font-semibold leading-tight text-white sm:text-3xl">
                   Shubham Francis
