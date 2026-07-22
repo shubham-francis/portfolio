@@ -19,7 +19,7 @@ export function PortfolioPage() {
           <nav className="hidden items-center gap-6 md:flex">
             {navLinks.map((link) => (
               link === 'Resume' ? (
-                <a key={link} href="/docs/resume.pdf" download className="text-sm text-cyan-200 transition hover:text-white">
+                <a key={link} href={`${import.meta.env.BASE_URL}docs/resume.pdf`} download className="text-sm text-cyan-200 transition hover:text-white">
                   {link}
                 </a>
               ) : (
@@ -38,7 +38,7 @@ export function PortfolioPage() {
             <div className="flex flex-col gap-3">
               {navLinks.map((link) => (
                 link === 'Resume' ? (
-                  <a key={link} href="/docs/resume.pdf" download className="text-sm text-cyan-200" onClick={() => setMobileMenuOpen(false)}>
+                  <a key={link} href={`${import.meta.env.BASE_URL}docs/resume.pdf`} download className="text-sm text-cyan-200" onClick={() => setMobileMenuOpen(false)}>
                     {link}
                   </a>
                 ) : (
