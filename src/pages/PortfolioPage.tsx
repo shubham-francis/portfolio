@@ -170,7 +170,7 @@ export function PortfolioPage() {
               Earned the <span className="font-semibold text-white">NPTEL Computer Architecture</span> certification, covering CPU design, memory systems, pipelining, and performance optimization. Enhanced my understanding of how hardware and software interact to improve program execution.
             </p>
             <div className="mt-3">
-              <a href="/docs/certificates/Computer%20Architecture.pdf" target="_blank" rel="noreferrer" className="text-sm text-cyan-200 underline">View Certificate</a>
+              <a href="/docs/certificates/computer-architecture.pdf" target="_blank" rel="noreferrer" className="text-sm text-cyan-200 underline">View Certificate</a>
             </div>
           </GlassCard>
         </section>
